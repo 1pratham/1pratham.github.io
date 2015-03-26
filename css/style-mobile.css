@@ -1,0 +1,111 @@
+/*
+	Prologue 1.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 14pt;
+	}
+
+	h2
+	{
+		font-size: 1.5em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+	.container
+	{
+		padding: 0 15px 0 15px;
+	}
+
+	.image.featured
+	{
+		position: relative;
+		min-height: 10em;
+		overflow: hidden;
+	}
+	
+		.image.featured img
+		{
+			position: relative;
+			height: 10em;
+			width: auto;
+			/*
+				Stuff below is automatically calculated using JS. It sucks, but there
+				doesn't appear to be a way to center the <img> inside its parent with
+				pure CSS (since we don't know its width).
+			
+				left: 0;
+				margin-left: 0;
+			*/
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+	
+		#main > section
+		{
+			padding: 2em 0 2em 0;
+		}
+	
+	
+	#header
+	{
+		width: 100%;
+		background: none !important;
+		box-shadow: none !important;
+	}
+	
+		#header .top
+		{
+			position: absolute;
+
+		}
+		
+	#logo
+	{
+		margin: 1.75em 1.5em 1.5em 1.5em;
+
+	}
+	
+		#logo h1
+		{
+			font-weight: 400;
+			font-size: 1em;
+			line-height: 1em;
+		}
+	
+		#logo .byline
+		{
+			font-size: 0.6em;
+		}
+		
+	#nav
+	{
+	}
+	
+		
+		#nav ul
+		{
+		}
+		
+			#nav ul li
+			{
+			}
+			
+				#nav ul li a
+				{
+					padding: 0.5em 1.25em 0.5em 1.25em;
+				}
